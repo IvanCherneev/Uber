@@ -48,7 +48,6 @@
 		position: fixed;
 		width: 100%;
 		z-index: 5;
-		position: relative;
 	}
 	.list_menu {
 		list-style-type: none;
@@ -74,17 +73,6 @@
 	}
 	.burger {
 		display: none;
-		position: absolute;
-		right: 10px;
-		top: 50%;
-		transform: translateY(-50%);
-		span {
-			display: block;
-			height: 2px;
-			width: 26px;
-			border: 1px solid #ffffff;
-			margin-top: 2px;
-		}
 	}
 	.subheader {
 		height: 84px;
@@ -138,7 +126,7 @@
 .promo {
 	min-height: 800px;
 	background: url(../img/bg/uber_bg.jpg) center center/cover no-repeat;
-	padding: 124px 0 185px 0;
+	padding: 185px 0 185px 0;
 	.title {
 		text-align: center;
 		color: #FFFFFF;
